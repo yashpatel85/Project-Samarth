@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire backend directory into the container's /app/backend directory
 COPY ./backend /app/backend
 # Copy the .env file (we'll override with Render's env vars, but good practice)
-COPY .env .
+# COPY .env .
 
 # Make port 8000 available to the world outside this container
 EXPOSE 8000
