@@ -12,7 +12,7 @@ if project_root not in sys.path:
 # --- End path modification ---
 
 # --- Configuration ---
-BACKEND_URL = "https://project-samarth-backend-mnol.onrender.com" # URL of our FastAPI endpoint
+BACKEND_URL = "https://project-samarth-backend-mnol.onrender.com/chat" # URL of our FastAPI endpoint
 
 # --- Streamlit App ---
 
