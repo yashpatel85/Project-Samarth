@@ -1,0 +1,32 @@
+# Environment folders
+samarth_env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE folders
+.idea/
+.vscode/
+
+# Secrets
+.env
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.bak
+
+# Build artifacts (if any)
+build/
+dist/
+*.egg-info/
+
+# Streamlit secrets (if used later)
+.streamlit/secrets.toml
+
+# OS specific
+.DS_Store
+Thumbs.db
