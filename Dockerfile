@@ -30,4 +30,4 @@ ENV VARIABLE_NAME="app"
 # Use 0.0.0.0 to listen on all interfaces within the container
 # Use the port Render expects (usually provided via $PORT, defaults here to 8000)
 # Add --factory for better app loading in some environments
-CMD ["uvicorn", "--host", "0.0.0.0", "--port", "8000", "--factory", "backend.app.main:app"]
+CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
